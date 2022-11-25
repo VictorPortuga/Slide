@@ -30,7 +30,7 @@ export default class Slide {
 
   onMove(event) {
     const poiterPosition =
-      event.type === 'mousedown'
+      event.type === 'mousemove'
         ? event.clientX
         : event.changedTouches[0].clientX;
     const finalPosition = this.updatePosition(poiterPosition);
