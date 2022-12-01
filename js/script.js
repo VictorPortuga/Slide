@@ -2,6 +2,7 @@ import { SlideNav } from './slide.js';
 
 const slide = new SlideNav('.wrapper', '.slide');
 slide.init();
-slide.addArroy('.prev', '.next');
+slide.addArrow('.prev', '.next');
+slide.addControl();
 
 console.log(slide);
